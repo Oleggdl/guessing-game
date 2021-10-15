@@ -8,7 +8,7 @@ class GuessingGame {
     this.max=max
     }
     guess() {
-        
+
     return Math.round(this.min+(this.max-this.min)/2)
     }
     lower() {
@@ -17,5 +17,6 @@ class GuessingGame {
     greater() {
     this.min=this.guess()
     }
+    
     }
 module.exports = GuessingGame;
