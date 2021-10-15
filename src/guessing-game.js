@@ -17,6 +17,7 @@ class GuessingGame {
     greater() {
     this.min=this.guess()
     }
+
     
     }
 module.exports = GuessingGame;
